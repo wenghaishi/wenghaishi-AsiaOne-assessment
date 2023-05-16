@@ -3,7 +3,7 @@ import { createStore } from "redux";
 const initialState = { showDropdown: false };
 
 const appReducer = (state = initialState, action) => {
-  if (action.type === "showDropdown") {
+  if (action.type === "toggleDropdown") {
     return {
       showDropdown: !state.showDropdown,
     };
