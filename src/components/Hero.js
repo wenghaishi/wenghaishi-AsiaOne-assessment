@@ -18,15 +18,18 @@ const Hero = () => {
       </video>
       <div className={classes.share}>
         <img className={classes.menuItem} src="menu.png" alt="menu icon" />
-        <img onClick={toggleDropdown} className={classes.menuShare} src="share.png" alt="share menu" />
+        {!dropdown && <img onClick={toggleDropdown} className={classes.menuShare} src="share.png" alt="share menu" />}
       </div>
 
       {dropdown && (
-        <ul className={classes.dropdown}>
-          <li>Option 1</li>
-          <li>Option 2</li>
-          <li>Option 3</li>
-        </ul>
+        <div className={classes.dropdown}>
+          <img className={classes.dropdownImg} src="whatsapp.png" alt="menu icon"/>
+          <img className={classes.dropdownImg} src="instagram.png" alt="menu icon"/>
+          <img className={classes.dropdownImg} src="telegram.png" alt="menu icon"/>
+          <img className={classes.dropdownImg} src="facebook.png" alt="menu icon"/>
+          <img className={classes.dropdownImg} src="twitter.png" alt="menu icon"/>
+          <img className={classes.dropdownClose} onClick={toggleDropdown}src="close.png" alt="menu icon"/>
+        </div>
       )}
     </div>
   );
