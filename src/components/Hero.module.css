@@ -21,6 +21,26 @@
   gap:5px;
 }
 
+.title {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 55px;
+  font-weight: 800;
+  color: #424853;
+
+}
+
+.bottomElement {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.showElement {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .menuItem {
   background: rgba(66, 72, 83, 0.5);
   padding:12px ;
@@ -35,6 +55,7 @@
   width: 30px;
   margin-bottom: 20px;
   border-radius: 0 0 50px 50px;
+  
 }
 
 .dropdown {
@@ -59,7 +80,7 @@
 }
 
 .dropdownClose {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   height: 20px;
   width: 40px;
 }
