@@ -5,7 +5,7 @@ import classes from "./CircularCarousel.module.css";
 
 const CircularCarousel = ({ images }) => {
   return (
-    <Carousel className={classes.main} showThumbs={false}>
+    <Carousel className={classes.main} showThumbs={false} >
       <div>
         <img src="carousel1.png" />
       </div>

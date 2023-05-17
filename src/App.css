@@ -1,3 +1,18 @@
 body {
   margin:0;
 }
+
+.App {
+  display:flex;
+  flex-direction: column;
+}
+
+[data-aos="roll-left"] {
+  transform: translateX(-300%) rotate(-360deg);
+  opacity: 0;
+  transition-property: transform, opacity, rotate;
+  &.aos-animate {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
+}

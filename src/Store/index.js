@@ -1,6 +1,10 @@
 import { createStore } from "redux";
 
-const initialState = { showDropdown: false, showBottomElement: false };
+const initialState = {
+  showDropdown: false,
+  showBottomElement: false,
+  rollInElement: false,
+};
 
 const appReducer = (state = initialState, action) => {
   if (action.type === "toggleDropdown") {
@@ -14,6 +18,13 @@ const appReducer = (state = initialState, action) => {
     return {
       ...state,
       showBottomElement: !state.showBottomElement,
+    };
+  }
+
+  if (action.type === "rollInElement") {
+    return {
+      ...state,
+      rollInElement: !state.rollInElement,
     };
   }
 

@@ -1,9 +1,19 @@
 import React from "react";
 import classes from "./About.module.css";
 import CircularCarousel from "./CircularCarousel";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "../App.css"
 
 const About = () => {
+  const dispatch = useDispatch();
+  const rollInElement = useSelector((state) => state.rollInElement);
 
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  });
 
   return (
     <div className={classes.main}>
@@ -35,7 +45,9 @@ const About = () => {
         It is no ordinary sports car, for the SL's true purpose is to refresh a
         petrolhead's soul.
       </h1>
-      <CircularCarousel className={classes.rollInElement}/>
+      <div data-aos="roll-left" className={classes.rollInElement}>
+        <CircularCarousel />
+      </div>
     </div>
   );
 };
