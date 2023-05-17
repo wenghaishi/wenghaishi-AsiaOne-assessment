@@ -4,7 +4,7 @@ import CircularCarousel from "./CircularCarousel";
 
 const About = () => {
 
-  const carouselImages = ["logo192.png","prompt.png","logo192.png","logo192.png"]
+
   return (
     <div className={classes.main}>
       <h1 className={classes.mainText}>
@@ -35,7 +35,7 @@ const About = () => {
         It is no ordinary sports car, for the SL's true purpose is to refresh a
         petrolhead's soul.
       </h1>
-      <CircularCarousel images={carouselImages} />
+      <CircularCarousel className={classes.rollInElement}/>
     </div>
   );
 };
