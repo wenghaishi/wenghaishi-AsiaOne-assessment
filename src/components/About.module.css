@@ -3,4 +3,5 @@
   height: 100vh;
   background-color: #262A31;
   color:white;
+  z-index: 10;
 }

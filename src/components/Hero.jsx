@@ -15,8 +15,9 @@ const Hero = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      dispatch({type: "toggleBottomElement"})
-      console.log("scrolled")
+      dispatch({ type: "toggleBottomElement" });
+      console.log("scrolled");
+      window.removeEventListener("scroll", handleScroll);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -78,13 +79,13 @@ const Hero = () => {
           />
         </div>
       )}
-
-      {showBottomElement && (
-        <div
-        >
-          Bottom Element
-        </div>
-      )}
+      <div
+        className={`${classes.container} ${
+          showBottomElement ? classes.active : classes.inactive
+        }`}
+      >
+        <img className={classes.prompt} src="prompt.png" alt="prompt" />
+      </div>
     </div>
   );
 };
