@@ -56,28 +56,28 @@ const About = () => {
               className={classes.whiteDot1}
               data-aos="dot"
               data-aos-delay="1000"
-              data-aos-duration="500"
+              data-aos-duration="300"
               src="whiteDot.png"
               alt=""
             />
             <div
               className={classes.lineOne1}
               data-aos="dot"
-              data-aos-delay="1500"
-              data-aos-duration="500"
+              data-aos-delay="1300"
+              data-aos-duration="300"
             />
             <div
               className={classes.lineTwo1}
               data-aos="dot"
-              data-aos-delay="2000"
-              data-aos-duration="500"
+              data-aos-delay="1600"
+              data-aos-duration="300"
             />
             <img
               className={classes.bubbleOne1}
               src="bubble1.png"
               data-aos="dot"
-              data-aos-delay="2500"
-              data-aos-duration="500"
+              data-aos-delay="1900"
+              data-aos-duration="300"
               alt=""
             />
           </>
@@ -89,28 +89,28 @@ const About = () => {
               className={classes.whiteDot2}
               data-aos="dot"
               data-aos-delay="1000"
-              data-aos-duration="500"
+              data-aos-duration="300"
               src="whiteDot.png"
               alt=""
             />
             <div
               className={classes.lineOne2}
               data-aos="dot"
-              data-aos-delay="1500"
-              data-aos-duration="500"
+              data-aos-delay="1300"
+              data-aos-duration="300"
             />
             <div
               className={classes.lineTwo2}
               data-aos="dot"
-              data-aos-delay="2000"
+              data-aos-delay="1600"
               data-aos-duration="500"
             />
             <img
               className={classes.bubbleOne2}
               src="bubble2.png"
               data-aos="dot"
-              data-aos-delay="2500"
-              data-aos-duration="500"
+              data-aos-delay="1900"
+              data-aos-duration="300"
               alt=""
             />
           </>
@@ -122,28 +122,28 @@ const About = () => {
               className={classes.whiteDot3}
               data-aos="dot"
               data-aos-delay="1000"
-              data-aos-duration="500"
+              data-aos-duration="300"
               src="whiteDot.png"
               alt=""
             />
             <div
               className={classes.lineOne3}
               data-aos="dot"
-              data-aos-delay="1500"
-              data-aos-duration="500"
+              data-aos-delay="1300"
+              data-aos-duration="300"
             />
             <div
               className={classes.lineTwo3}
               data-aos="dot"
-              data-aos-delay="2000"
-              data-aos-duration="500"
+              data-aos-delay="1600"
+              data-aos-duration="300"
             />
             <img
               className={classes.bubbleOne3}
               src="bubble3.png"
               data-aos="dot"
-              data-aos-delay="2500"
-              data-aos-duration="500"
+              data-aos-delay="1900"
+              data-aos-duration="300"
               alt=""
             />
           </>
@@ -155,28 +155,28 @@ const About = () => {
               className={classes.whiteDot4}
               data-aos="dot"
               data-aos-delay="1000"
-              data-aos-duration="500"
+              data-aos-duration="300"
               src="whiteDot.png"
               alt=""
             />
             <div
               className={classes.lineOne4}
               data-aos="dot"
-              data-aos-delay="1500"
-              data-aos-duration="500"
+              data-aos-delay="1300"
+              data-aos-duration="300"
             />
             <div
               className={classes.lineTwo4}
               data-aos="dot"
-              data-aos-delay="2000"
-              data-aos-duration="500"
+              data-aos-delay="1600"
+              data-aos-duration="300"
             />
             <img
               className={classes.bubbleOne4}
               src="bubble4.png"
               data-aos="dot"
-              data-aos-delay="2500"
-              data-aos-duration="500"
+              data-aos-delay="1900"
+              data-aos-duration="300"
               alt=""
             />
           </>

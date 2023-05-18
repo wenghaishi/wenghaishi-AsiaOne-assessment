@@ -1,0 +1,85 @@
+.main {
+  background-image: url("../../public/interior-bg.png");
+  background-size: cover;
+  background-position: center; /* Center the image */
+  height:100vh;
+  z-index:40;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  color: #857E6B;
+  margin-top: 0;
+}
+
+.rectangleLeftContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 20;
+}
+
+.rectangleLeft {
+  margin-top:-3%;
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.rectangleLeftTitle {
+  position: absolute;
+  top: -50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  /* Add additional styling as needed */
+}
+
+.rectangleRightContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.rectangleRight {
+  margin-top:-3%;
+  position:fixed;
+  right:0;
+  display: block;
+  width: 75%;
+  right: 0;
+  height: auto;
+}
+
+.rectangleRightTitle {
+  position: absolute;
+  width:60%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding-top: 2%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  /* Add additional styling as needed */
+}
+
+.mainText {
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.80;
+  color:white;
+  padding:2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centeredElement {
+  margin-top:20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
