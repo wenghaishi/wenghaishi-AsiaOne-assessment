@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import backgroundVideo from "./background-video.mov";
+import backgroundVideo from "./background-video.mp4";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 
