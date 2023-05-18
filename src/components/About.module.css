@@ -27,7 +27,7 @@
   height: 40vh;
 }
 
-.whiteDot {
+.whiteDot1 {
   height: 17px;
   width: 17px;
   right: 23%;
@@ -36,7 +36,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.lineOne {
+.lineOne1 {
   position: absolute;
   width: 30%;
   right: -10%;
@@ -45,7 +45,7 @@
   transform: rotate(-180deg);
 }
 
-.lineTwo {
+.lineTwo1 {
   position: absolute;
   width: 30%;
   right: -33%;
@@ -54,14 +54,117 @@
   transform: rotate(120deg);
 }
 
-.bubbleOne {
+.bubbleOne1 {
   position: absolute;
-  height:50%;
-  width: 50%;
-  right: -55%;
-  top: -13%;
-
+  height:58%;
+  width: 58%;
+  right: -60%;
+  top: -20%;
 }
 
 
+.whiteDot2 {
+  height: 17px;
+  width: 17px;
+  right: 72.5%;
+  top: 57%;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lineOne2 {
+  position: absolute;
+  width: 30%;
+  right: 77%;
+  top: 58.5%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(-180deg);
+}
+
+.lineTwo2 {
+  position: absolute;
+  width: 30%;
+  right: 103%;
+  top: 70.3%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(-50deg);
+}
+
+.bubbleOne2 {
+  position: absolute;
+  height:58%;
+  width: 58%;
+  right: 110%;
+  top: 60%;
+}
+
+.whiteDot3 {
+  height: 17px;
+  width: 17px;
+  right: 65%;
+  top: 40%;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lineOne3 {
+  position: absolute;
+  width: 30%;
+  right: 70%;
+  top: 41.2%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(-180deg);
+}
+
+.lineTwo3 {
+  position: absolute;
+  width: 30%;
+  right: 100%;
+  top: 33.4%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(30deg);
+}
+
+.bubbleOne3 {
+  position: absolute;
+  height:58%;
+  width: 58%;
+  right: 110%;
+  top: -10%;
+}
+
+.whiteDot4 {
+  height: 17px;
+  width: 17px;
+  right: 12%;
+  top: 51%;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lineOne4 {
+  position: absolute;
+  width: 25%;
+  right: -15%;
+  top: 52.4%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(-180deg);
+}
+
+.lineTwo4 {
+  position: absolute;
+  width: 25%;
+  right: -40%;
+  top: 58.7%;
+  border: 3px dashed #EEEEEE;
+  transform: rotate(30deg);
+}
+
+.bubbleOne4 {
+  position: absolute;
+  height:58%;
+  width: 58%;
+  right: -70%;
+  top: 50%;
+}
 
