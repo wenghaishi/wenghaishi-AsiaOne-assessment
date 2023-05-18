@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "../App.css"
+import "../App.css";
 
 const About = () => {
   const dispatch = useDispatch();
@@ -35,7 +35,6 @@ const About = () => {
         Mercedes-Benz SL comes along.
         <br />
         <br />
-        Yes, it goes fast, attracts attention, and takes a big chunk out of your
         savings. In SL55 form, it is the first brand-new SL in Singapore that
         costs over $1 million ($1,002,888 to be exact), its price inflated by
         the heftier taxes levied on super-luxury cars.
@@ -47,6 +46,35 @@ const About = () => {
       </h1>
       <div data-aos="roll-left" className={classes.rollInElement}>
         <CircularCarousel />
+        <img
+          className={classes.whiteDot}
+          data-aos="dot"
+          data-aos-delay="1500"
+          data-aos-duration="500"
+          src="whiteDot.png"
+          alt=""
+        />
+
+        <div
+          className={classes.lineOne}
+          data-aos="dot"
+          data-aos-delay="2000"
+          data-aos-duration="500"
+        />
+        <div
+          className={classes.lineTwo}
+          data-aos="dot"
+          data-aos-delay="2500"
+          data-aos-duration="500"
+        />
+        <img
+        className={classes.bubbleOne}
+          src="bubble1.png"
+          data-aos="dot"
+          data-aos-delay="3000"
+          data-aos-duration="500"
+          alt=""
+        />
       </div>
     </div>
   );

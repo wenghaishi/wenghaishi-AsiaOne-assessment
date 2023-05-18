@@ -1,10 +1,25 @@
 .main {
-  margin-top: 199vh;
   background-color: white;
-  height: 50vh;
+  height: 60vh;
   z-index:40;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: left;
+  color: #857E6B;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction:row;
+  font-size: 16px;
   align-items: center;
+  gap:5%;
+}
+
+
+.image {
+  height:30vh;
 }

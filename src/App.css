@@ -16,3 +16,32 @@ body {
     opacity: 1;
   }
 }
+
+[data-aos="dot"] {
+  opacity: 0;
+  transition-property:opacity;
+  &.aos-animate {
+    opacity: 1; 
+  }
+}
+
+[data-aos="line-rotate"] {
+  transform: rotate(0);
+  transition-property: rotate;
+  &.aos-animate {
+    transform: rotate(90deg);
+  }
+}
+
+.my-element {
+  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  width: 35%;
+  right: -15%;
+  top: 41.7%;
+  border: 3px dashed #EEEEEE;
+}
+
+.my-element.aos-animate {
+  transform: rotate(90deg);
+}
