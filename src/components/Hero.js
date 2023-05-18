@@ -38,7 +38,7 @@ const Hero = () => {
           <img
             onClick={toggleDropdown}
             className={classes.menuShare}
-            src="share.png"
+            src="share1.png"
             alt="share menu"
           />
         )}
