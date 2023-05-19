@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Pedigree from './components/Pedigree';
 import Interior from './components/Interior';
+import Dance from './components/Dance';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Pedigree />
       <Interior />
+      <Dance />
     </div>
   );
 }

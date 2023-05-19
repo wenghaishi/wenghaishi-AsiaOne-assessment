@@ -40,6 +40,32 @@ const Interior = () => {
           degrees at a touch of a button. It helps minimise screen glare when
           driving with the top down.
         </div>
+        <img
+          className={classes.whiteDot}
+          src="whiteDot.png"
+          alt="dot"
+          data-aos="fade-right"
+        />
+        <div
+          className={classes.lineOne}
+          data-aos="dot"
+          data-aos-delay="1300"
+          data-aos-duration="300"
+        />
+        <div
+          className={classes.lineTwo}
+          data-aos="dot"
+          data-aos-delay="1600"
+          data-aos-duration="500"
+        />
+        <img
+          className={classes.bubbleOne}
+          src="bubbleInterior.png"
+          data-aos="dot"
+          data-aos-delay="1900"
+          data-aos-duration="300"
+          alt=""
+        />
       </div>
     </div>
   );
